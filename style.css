@@ -7,24 +7,14 @@
     font-family: Raleway;
     src: url(fonts/Raleway-Black.ttf);
 }
-body
-{
-    font-family: Raleway;
-    font-size: 200px;
-    background-color: grey;
-}
-tag1 
-{
-    font-family: Raleway;
-    font-size: 100px;
-}
 body, html {
     height: 100%;
+    margin: 0;
+    color: white;
 }
-
 .bg {
     /* The image used */
-    background-image: url("img_girl.jpg");
+    background-image: url("pictures/background.png");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -32,3 +22,46 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.button-custom1 {
+    margin-left: 20px;
+    color: white;
+    background-color: transparent;
+    font-family: Raleway;
+    font-size: 69px;
+    border: none;
+}
+.button-custom2 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    left: 50%;
+    color: white;
+    background-color: transparent;
+    font-family: Raleway;
+    border: none;
+}
+.button-custom3 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 220px;
+    left: 50%;
+    color: white;
+    background-color: transparent;
+    font-family: Raleway;
+    border: none;
+
+}
+.button-custom4 {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 450px;
+    left: 50%;
+    color: white;
+    background-color: transparent;
+    font-family: Raleway;
+    border: none;
+}
+.font-size1 {
+    font-size: 40px;
+}
+
