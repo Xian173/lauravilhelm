@@ -17,6 +17,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg_bottom {
+    color: white;
+    background-color: black;
+    height: 10%;
+}
 .button-custom1 {
     margin-left: 1vw;
     color: white;
@@ -58,4 +63,15 @@
 .font-size1 {
     font-size: 2vw;
 }
-
+.website_description {
+    color: white;
+    font-family: Raleway;
+    font-size: 2.5vw;
+    margin-top: 10vw;
+    margin-left: -5vw;
+}
+.edwardhopper {
+    color:white;
+    font-family: Raleway;
+    margin-left: -5vw;
+}
