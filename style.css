@@ -8,8 +8,15 @@
     src: url(fonts/Raleway-Black.ttf);
 }
 .bg {
-    /* The image used */
     background-image: url("pictures/background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg2 {
+    /* The image used */
+    background-image: url("pictures/background2.png");
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -84,4 +91,34 @@
     position: fixed;
     bottom: 20px;
     right: 100px;
+}
+.contact-heading {
+    color:white;
+    font-family: Raleway;
+    margin-left: -5vw;  
+    margin-top: -1vw;   
+}
+.a {
+    text-decoration: none;
+}
+.about-picture-container {
+    float: left;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+.about-header-container {
+    font-family: Raleway;
+    font-size: 3vw;
+    color: white;
+    margin-top: 5vw;
+    right: 10vw;
+    text-align: center;
+
+}
+.about-text-container {
+    font-family: Raleway;
+    color: white;
+    text-align:justify;
+    margin-top: 2vw;
+    
 }
