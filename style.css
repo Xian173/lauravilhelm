@@ -75,3 +75,13 @@
     font-family: Raleway;
     margin-left: -5vw;
 }
+.twitter-icon-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.facebook-icon-container {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+}
