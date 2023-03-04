@@ -15,11 +15,8 @@
     background-size: cover;
 }
 .bg2 {
-    /* The image used */
     background-image: url("pictures/background2.png");
-    /* Full height */
     height: 100%;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,8 +92,13 @@
 .contact-heading {
     color:white;
     font-family: Raleway;
-    margin-left: -5vw;  
-    margin-top: -1vw;   
+    text-align: center;
+    font-size: 3vw;
+}
+.contact-text {
+    color: white;
+    font-family: Raleway;
+    font-size: 2vw;
 }
 .a {
     text-decoration: none;
@@ -121,4 +123,11 @@
     text-align:justify;
     margin-top: 2vw;
     
+}
+.ownership-signature {
+    font-size:0.7vw;
+    color:white;
+    margin-left:1vw;
+    position:fixed;
+    bottom: 0vw;
 }
