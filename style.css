@@ -9,17 +9,19 @@
 }
 .bg {
     background-image: url("pictures/background.png");
-    height: 100%;
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .bg2 {
     background-image: url("pictures/background2.png");
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 .bg_bottom {
     color: white;
@@ -72,12 +74,12 @@
     font-family: Raleway;
     font-size: 2.5vw;
     margin-top: 10vw;
-    margin-left: -5vw;
+    margin-left: 0vw;
 }
 .edwardhopper {
     color:white;
     font-family: Raleway;
-    margin-left: -5vw;
+    margin-left: 0vw;
 }
 .twitter-icon-container {
     position: fixed;
@@ -130,4 +132,9 @@
     margin-left:1vw;
     position:fixed;
     bottom: 0vw;
+}
+.italic {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
