@@ -8,6 +8,9 @@
 </head>
 <body>
     <style>
+        body {
+            overflow-x: hidden;
+        }
         a {
             text-decoration: none;
         }
@@ -26,7 +29,105 @@
             <h class="button-custom4 font-size1">Contact</h>
         </a>
         
-        
+        <div class="row">
+            <div class="column">
+
+                <img id="myImg1" src="gallery/20210923_015713.jpg" class="img-thumbnail" alt="xxx">
+                <img id="myImg2" src="gallery/20211224_092150.jpg" class="img-thumbnail" alt="xxx">
+                <img id="myImg3" src="gallery/Elliott.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg4" src="gallery/eye_sketch_s.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg5" src="gallery/image (1).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg6" src="gallery/image (2).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg7" src="gallery/unknown (4).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg8" src="gallery/unknown (8).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg8" src="gallery/unknown (12).png" class="img-thumbnail" alt="xxx">
+            </div>
+            <div class="column">
+
+                <img id="myImg2" src="gallery/image (3).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg1" src="gallery/image (4).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg3" src="gallery/image (6).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg4" src="gallery/image (9).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg5" src="gallery/let_me_breathe.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg6" src="gallery/Lumeon.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg7" src="gallery/unknown (5).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg8" src="gallery/unknown (9).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg7" src="gallery/unknown (13).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg8" src="gallery/unknown-127.png" class="img-thumbnail" alt="xxx">
+            </div>
+            <div class="column">
+
+                <img id="myImg2" src="gallery/image (5).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg1" src="gallery/image (7).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg3" src="gallery/image (8).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg4" src="gallery/marah900_blood.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg5" src="gallery/playtime_poster.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg6" src="gallery/sad_simon.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg7" src="gallery/unknown.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg8" src="gallery/unknown (6).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg7" src="gallery/unknown (10).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg8" src="gallery/unknown (14).png" class="img-thumbnail" alt="xxx">
+            </div>
+            <div class="column">
+
+                <img id="myImg2" src="gallery/image (10).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg1" src="gallery/image (11).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg3" src="gallery/image.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg4" src="gallery/unknown (1).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg5" src="gallery/unknown (2).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg6" src="gallery/unknown (3).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg7" src="gallery/unknown (7).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg8" src="gallery/unknown (11).png" class="img-thumbnail" alt="xxx">
+                <img id="myImg7" src="gallery/unknown-139.png" class="img-thumbnail" alt="xxx">
+                <img id="myImg8" src="gallery/unknown-165.png" class="img-thumbnail" alt="xxx">
+
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                </div>
+                
+            </div>
+        </div>
+
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the images and bind an onclick event on each to insert it inside the modal
+            // use its "alt" text as a caption
+            var images = document.querySelectorAll(".img-thumbnail");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            for (let i = 0; i < images.length; i++) {
+                images[i].onclick = function () {
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+                }
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+            document.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape') {
+                    modal.style.display = "none";
+                }
+            });
+        </script>
 
         <div class="twitter-icon-container">
             <a href="https://twitter.com/LittleMull3" target="_blank">
