@@ -41,7 +41,7 @@
     position: absolute;
     margin-top: 2vw;
     margin-left: 2vw;
-    left: 70%;
+    left: 80%;
     color: white;
     background-color: transparent;
     font-family: Raleway;
@@ -51,7 +51,7 @@
     position: absolute;
     margin-top: 2vw;
     margin-left: 11vw;
-    left: 70%;
+    left: 80%;
     color: white;
     background-color: transparent;
     font-family: Raleway;
@@ -272,8 +272,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
+    
     text-rendering: optimizeLegibility;
 }
 
